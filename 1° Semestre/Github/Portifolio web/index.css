@@ -1,0 +1,142 @@
+.imgLogo{
+    display: flex;
+    width: 8.7vh;
+    height: 8vh;
+}
+body{
+    background-color: #101622;
+    font-family: 'Manrope', sans-serif;
+}
+.itens{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 25px;
+    border-bottom: 1px solid #1E293B;
+    height: 5.5vw;
+}
+.logoCab{
+    display: flex;
+    align-items: center;
+}
+.textoCab{
+    display: flex;
+    gap: 15vh;
+}
+.textoAp{
+    color: white;
+}
+.botaoCab{
+    background-color: #FFD700;
+    width: 8vw;
+    height: 3vw;
+    border: 0;
+    border-radius: 10px;
+}
+.fotao{
+    box-shadow: 
+    0 0 20px #FFD700,
+    0 0 10px #FFD700,
+    0 0 75px #FFD700;
+    border-radius: 70px;
+}
+.fotaoSam{
+    width: 30vw;
+    border-radius: 70px;
+}
+.AVAB{
+    background-color: #282A1F;
+    color: #FFD700;
+    border: 0;
+    border-radius: 20px;
+    width: 14vw;
+    height: 3vh;
+}
+.apresenta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.tituloAp{
+    color: white;
+    font-size: 5vh;
+}
+.spam{
+    color: #FFD700;
+}
+.fotoAbout{
+    width: 34vw;
+    border-radius: 70px;
+}
+.aboutMe{
+    display: flex;
+    height: 96vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15vh;
+    padding-left: 17vh;
+}
+.textoAbout{
+    color: white;
+}
+.about{
+    color: #FFD700;
+}
+.subTAbout{
+    color: gray;
+}
+.textoAbout h1{
+    font-size: 5.5vh;
+}
+.contato{
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.balao{
+    background-color: #FFD700;
+    width: 95%;
+    height: 80%;
+    border-radius: 60px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.balao p{
+    text-align: center;
+    padding-top: -30px;
+}
+.balao h1{
+    font-size: 9vh;
+}
+.botaoGet{
+    color: #FFD700;
+    background-color: #101622;
+    width: 12vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 17px;
+}
+.fim{
+    color: white;
+    flex-direction: column;
+}
+.textoFim{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+.direitos{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.textoFim spam{
+    color: #FFD700;
+}

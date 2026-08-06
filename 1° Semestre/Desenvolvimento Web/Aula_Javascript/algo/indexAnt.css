@@ -1,0 +1,18 @@
+/*tudo que esta fora do media é MOBILE*/
+.image img{
+    display: none;
+}
+.mainContainer{
+    background-color: aqua;
+}
+/*O tamanho da tela é absoluto*/
+@media (min-width: 650px){
+    /* tudo que estiver aq é WEB*/
+    .image img{
+        display: block;
+    }
+    .mainContainer{
+        display: flex;
+        background-color: black;
+    }
+}

@@ -1,0 +1,17 @@
+comando cmd{
+
+docker exec -it postgres_pbl psql -U admin -d sistema_estoque psql
+
+}
+
+comando create{
+
+    CREATE TABLE movimentacao{
+        codigo SERIAL PRIMARY KEY,
+        tipo CHAR,
+        quantidade INTEGER,
+        data_movimentacao TIMESTAMP,
+        codigo_produto INTEGER,
+        FOREIGN KEY (codigo_produto) REFERENCES produto(codigo)
+    }
+}

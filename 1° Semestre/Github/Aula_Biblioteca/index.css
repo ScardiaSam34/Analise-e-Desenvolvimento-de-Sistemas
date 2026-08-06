@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+*{
+    margin:0
+}
+.itens{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+.itens p:hover{
+    color: #BD580F;
+    transition: 0,3s;
+}
+.botao{
+    background-color: #be580f;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+.logo{
+    width: 200px;
+}
+.hero{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    background-image:linear-gradient(0deg, rgba(0,0,0),rgba(23, 12, 12, 0.126)), url("assets/capa.jpeg");
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 800 ;
+    text-align: center;
+}
+.hero p{
+    color: white;
+}
+.spam{
+    color:  #be580f;
+}
+.pesquisa{
+    padding: 2.5vh 2vw;
+    border: none;
+    outline:  #be580f;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    width: 400px;
+    height: 21px;
+}
+.input_container{
+    padding: 0.4vw;
+    border-radius: 14px;
+    background-color: rgba(127, 127, 127, 0.628);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+.livros{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(192, 192, 192);
+}
+.card{
+    background-color: rgb(250, 249, 249);
+    border-radius: 10px;
+    color: white;
+    bottom: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.textos{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.img_livro img{
+    border-radius: 6px;
+    display: flex;
+    width: 15vw;
+    height: 42vh;
+}
+.textol{
+    color: black;
+    display: flex;
+    font-size: 25px;
+}
+.nome{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+.textosCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 22px;
+    padding-top: 10px;
+}
+.area{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    padding-top: 20px;
+}
+.area_botao{
+    height: 5vh;
+    width: 17vw;
+    color: #943e01;
+    background-color: #f1d0b8;
+    border: 0;
+    border-radius: 7px;
+}
+#a1, #a3{
+    margin-top: 28px;
+}
+.botao1{
+    height: 5vh;
+    width: 13vw;
+    border: 0;
+    border-radius: 8px;
+    background-color: white;
+}
+.textoEsPg3 p{
+    color: #BD580F;
+}
+.cabecalhoPg3{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: end;
+}
+.stayC{
+    background-color: #f4eeea;
+    height: 80vh;
+}
+.cardPg3{
+    display: flex;
+    background-color: white;
+    width: 25vw;
+    height: 30vh;
+    border-radius: 15px;
+    padding: 30px;
+    flex-direction: column;
+}
+.cardsPg3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#imgIcon{
+    width: 30px;
+    height: 30px;
+    opacity: 20%;
+    padding-top: 4px;
+}
+.textoBdPg3 p{
+    color: gray;
+    font-size: 13px;
+}
+.textoDataCardPg3{
+    background-color: #F8EEE7;
+    color: #BD580F;
+    display: flex;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.textoCabPg3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 26.5%;
+}
+.textoBdPg3{
+    padding-top: 15px;
+    font-size: 15px;
+}
+#regis{
+    display: flex;
+    padding-top: 40px;
+}
+.HowWe{
+    background-color: #F8F7F6;
+    height: 80vh;
+}
+.textoHow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 16vh;
+    gap: 12px;
+}
+.textoHow p{
+    color: gray;
+}
+.cardPg4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.cardsPg4{
+    display: flex;
+    flex-direction: row;
+}
+.img-icon{
+    width: 20vh;
+}
+.textoCardPg4{
+    flex-direction: column;
+    text-align: center;
+}
+.textoCardPg4 p{
+    color: gray;
+}
+.fim h3{
+    color: white;
+}
+.fim p{
+    color: grey;
+}
+.fim{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    padding: 50px;
+}
+.cardsFim img{
+    width: 40px;
+}
+.logoFim{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 14px;
+    padding-bottom: 20px;
+}
+.dataFim{
+    padding-top: 75px;
+}
+.contUs h3{
+    padding-bottom: 27px;
+}

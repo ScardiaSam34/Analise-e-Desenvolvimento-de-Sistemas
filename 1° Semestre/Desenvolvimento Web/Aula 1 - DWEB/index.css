@@ -1,0 +1,38 @@
+.titulo{
+    color: aqua;
+    background-color:gray;
+}
+
+.cabecalho{
+    display:flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-color: aquamarine;
+}
+
+*{
+    margin: 0;
+}
+
+.hero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px
+}
+
+.descricao{
+    width: 350px;
+}
+
+.hero_imagem{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
